@@ -7,11 +7,10 @@ assignees: asafieva
 
 ---
 
-**Contact Details? Please do not provide any sensitive information**
-A clear and concise description of what the problem is. Ex. I'm always frustrated when [...]
-
+**Contact Details. Please do not provide any sensitive information**
+[A clear and concise description how to contact you]
 **Any question or comment?**
-Notes
+[Notes]
 
 **Policies**
 By submitting this issue, you agree to follow all our [Policies](https://www.cancer.gov/policies). 
