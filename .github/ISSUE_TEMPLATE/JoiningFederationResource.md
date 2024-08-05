@@ -1,7 +1,8 @@
-name: Joining Federation Resource
+name: Joining the Federation
 description: A request to be a member of CCDI Data Federation Resource.
-title: "[Federation Resource]: "
+title: "[Joining the Federation]: "
 labels: ["CCDI", "API"]
+projects: ["octo-org/1", "octo-org/44"]
 assignees:
   - asafieva
 body:
