@@ -1,5 +1,37 @@
 blank_issues_enabled: false
-contact_links:
-  - name: GitHub Community Support
-    url: https://github.com/orgs/community/discussions
-    about: Please ask and answer questions here.
+name: Joining Resource Federation
+description: A request to be a member of CCDI Data Federation Resource.
+title: "[Joining the Federation]: "
+labels: ["CCDI", "API"]
+assignees:
+  - asafieva
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Thanks for taking the time to fill out this request form!
+  - type: input
+    id: contact
+    attributes:
+      label: Contact Details
+      description: How can we get in touch with you if we need more info?
+      placeholder: ex. email@example.com
+    validations:
+      required: false
+  - type: textarea
+    id: more-info
+    attributes:
+      label: More information
+      description: Any question or comment?
+      placeholder: Comments
+      value: "More information"
+    validations:
+      required: false
+  - type: checkboxes
+    id: terms
+    attributes:
+      label: Policies
+      description: By submitting this issue, you agree to follow all our [Policies](https://www.cancer.gov/policies). 
+      options:
+        - label: I agree to follow this project's Policies
+          required: true
