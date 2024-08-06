@@ -1,7 +1,9 @@
-name: Request
-description: File a request issue
-title: "[Request] <to join the CCDI Federation Resource>"
+name: Join CCDI Federation Resource Request
+description: Submit a request to become a member of CCDI Federation Resource.
+title: "[Request] <here an institution to join the CCDI Federation Resource>"
 labels: ["Join", "Request"]
+assignees:
+  - asafieva
 body:
   - type: markdown
     attributes:
@@ -11,7 +13,7 @@ body:
     id: contact
     attributes:
       label: Contact Details
-      description: How can we get in touch with you if we need more info?
+      description: How can we get in touch with you if we need your info?
       placeholder: ex. email@example.com
     validations:
       required: true
